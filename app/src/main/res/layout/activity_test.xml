@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="28dp"
+    >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Login"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-black"
+        android:textSize="28sp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/title"
+        android:layout_marginTop="90dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Username"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/UsernameText"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/title"
+        android:layout_marginTop="85dp"
+        android:layout_toRightOf="@id/textview1"
+        android:hint="Username" />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/UsernameText"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Password"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/PasswordText"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/UsernameText"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@id/textview2"
+        android:hint="Password" />
+    <TextView
+        android:id="@+id/textview3"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/PasswordText"
+        android:layout_marginTop="1dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Forget password?"
+        android:textSize="14sp" />
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview3"
+        android:text="Login"
+        />
+
+    <TextView
+        android:id="@+id/textview4"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@id/button1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Don't have an account? Sign up."
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
